@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>milConnect</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- UNCLASSIFIED BAR -->
+  <div class="unclassified text-center">
+    Unclassified
+  </div>
+
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="container-fluid px-3">
+
+      <div class="row align-items-center">
+
+        <!-- LOGO -->
+        <div class="col">
+          <img
+            src="images/milConnect-header-title-desktop.png"
+            alt="milConnect"
+            class="milconnect-logo">
+        </div>
+
+        <!-- USER AREA -->
+        <div class="col-auto text-end">
+
+          <div class="new-user mb-2">
+            New User?
+            <a href="#">Start Here.</a>
+          </div>
+
+          <button class="btn sign-in-button">
+            Sign In
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand bg-light py-2">
+    <div class="container-fluid px-3">
+
+      <ul class="navbar-nav align-items-center">
+
+        <li class="nav-item me-4">
+          <a class="nav-link" href="#">
+            🏠
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            FAQ
+          </a>
+        </li>
+
+      </ul>
+
+
+      <!-- SEARCH -->
+      <div class="ms-auto search-area">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search">
+
+        <span class="ms-3">⌕</span>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- ANNOUNCEMENTS -->
+  <section class="announcements">
+
+    <div class="container-fluid px-4 py-2">
+
+      <!-- ALERT 1 -->
+      <div class="announcement">
+
+        <p class="announcement-title">
+          (!) Outage Alert
+        </p>
+
+        <p>
+          milConnect will be unavailable for scheduled maintenance on
+          <strong>October 9, 2026</strong> with an anticipated end on
+          <strong>October 11, 2026</strong>. We apologize for any inconvenience.
+        </p>
+
+      </div>
+
+
+      <!-- ALERT 2 -->
+      <div class="announcement">
+
+        <p class="announcement-title">
+          (!) TRICARE Open Season begins November 9 and ends December 8, 2026
+        </p>
+
+        <p>
+          To Learn about your options during TRICARE Open Season,
+          please visit
+          <a href="#">TRICARE's Open Season page.</a>
+        </p>
+
+        <p>
+          During Open Season, you can use <strong>milConnect</strong>
+          to enroll in or change your health plan for next year.
+          To get started, sign into <strong>milConnect</strong> and choose
+          <strong>Beneficiary Web Enrollment (BWE)</strong> from the Benefits menu.
+        </p>
+
+      </div>
+
+
+      <!-- ALERT 3 -->
+      <div class="announcement">
+
+        <p class="announcement-title">
+          (!) INCAP Portal Goes Live September 10, 2026
+        </p>
+
+        <p>
+          We're excited to announce that the Incapacitated Adult Child
+          Program (INCAP) Portal will officially go live on September 10, 2026.
+        </p>
+
+        <p>
+          The INCAP Portal provides eligible sponsors with a secure,
+          user-friendly way to submit and track INCAP claims online.
+          You can also access helpful resources and guidance to support
+          you throughout the process.
+        </p>
+
+        <p>
+          Visit our
+          <a href="#">INCAP Portal</a>
+          page to learn more.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- AIRCRAFT BACKGROUND -->
+  <!-- BG changes every refreshes. -->
+  <section class="aircraft-section">
+
+    <div class="container-fluid px-3">
+
+      <!-- I WANT TO PANEL -->
+      <div class="goal-panel">
+
+        <h2>
+          I want to...
+        </h2>
+
+
+        <!-- CUSTOMER SUPPORT -->
+        <div class="support-message text-center">
+
+          For customer support, visit our
+          <a href="#">Customer Connect Portal</a>,
+          where you can access FAQs, chat with a 24/7 virtual assistant,
+          and submit online help requests.
+
+        </div>
+
+
+        <!-- BUTTON GRID -->
+        <div class="row g-3 mt-1">
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              (?) Elect to receive TRICARE correspondence by email
+            </button>
+          </div>
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              [>] Manage health benefits
+            </button>
+          </div>
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              [>] Manage my SGLI
+            </button>
+          </div>
+
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              [>] View my health care coverage
+            </button>
+          </div>
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              [>] Obtain proof of health coverage
+            </button>
+          </div>
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              [>] Retrieve my correspondence
+            </button>
+          </div>
+
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              (?) Update my name in DEERS
+            </button>
+          </div>
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              (?) Get answers about my ACA form
+            </button>
+          </div>
+
+          <div class="col-md-4">
+            <button class="goal-button">
+              (?) Update family members in DEERS
+            </button>
+          </div>
+
+        </div>
+
+
+        <!-- BOTTOM -->
+        <div class="row align-items-center goal-bottom">
+
+          <div class="col">
+
+            Don't see what you are looking for?
+            Browse the menus, search or check our
+            <a href="#">FAQ</a>.
+
+          </div>
+
+          <div class="col-auto">
+
+            <button class="btn more-goals-button dropdown-toggle">
+              More Goals
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- INFORMATION PANELS -->
+<section class="info-section">
+  <div class="container-fluid">
+
+    <div class="row g-3">
+
+      <!-- HOT TOPICS -->
+      <div class="col-md-6">
+        <div class="info-panel">
+
+          <h2>Hot Topics</h2>
+
+          <p>
+            <strong>Updating DEERS:</strong>
+            <a href="#">
+              How do I remove my Federal Employee Health Benefits Program
+              (FEHBP) from DEERS?
+            </a>
+          </p>
+
+          <p>
+            <strong>Navy GAL:</strong>
+            <a href="#">
+              How long does it take for changes I make in DEERS to show
+              up in the Navy GAL?
+            </a>
+          </p>
+
+          <p>
+            <strong>Certificate Error:</strong>
+            <a href="#">
+              My browser does not recognize milConnect's security certificates.
+              What do I do?
+            </a>
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- CORRESPONDENCE -->
+      <div class="col-md-6">
+        <div class="info-panel">
+
+          <h2>Did you receive correspondence?</h2>
+
+          <p>
+            <a href="#">Incapacitation Redetermination Deadline</a>
+          </p>
+
+          <p>
+            <a href="#">Medicare and TRICARE</a>
+          </p>
+
+          <p>
+            <a href="#">Viewing PCM Information</a>
+          </p>
+
+          <p>
+            <a href="#">Retrieving eCorrespondence</a>
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- WHAT'S NEW -->
+      <div class="col-md-6">
+        <div class="info-panel">
+
+          <h2>What's new in milConnect?</h2>
+
+          <p>
+            <strong>09/22/2026 Version 11.02</strong>
+          </p>
+
+          <p>
+            <a href="#">New Skip to Main Content Button</a>
+          </p>
+
+          <p>
+            <a href="#">
+              US Coast Guard Veterans can now request their OMPF through DPRIS
+            </a>
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- RECENT NEWS -->
+      <div class="col-md-6">
+        <div class="info-panel">
+
+          <h2>Recent News</h2>
+
+          <p>
+            <strong>01/15/2024:</strong>
+            <a href="#">Request a Copy of your Updated IRS Form 1095</a>
+          </p>
+
+          <p>
+            <a href="#">News Archives</a>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+  <!-- SUPPORT -->
+  <div class="container-fluid footer-support">
+
+    <div class="row g-4">
+
+      <!-- WEB SITE SUPPORT -->
+      <div class="col-md-3">
+
+        <h3>☎ WEB SITE SUPPORT</h3>
+
+        <p>
+          Call DMDC Tier 1 Web Services:
+          <strong>(800) 368-3665.</strong>
+        </p>
+
+        <p>
+          Talk to an agent for help with the Web site.
+        </p>
+
+      </div>
+
+
+      <!-- BENEFITS SUPPORT -->
+      <div class="col-md-3">
+
+        <h3>☎ BENEFITS SUPPORT</h3>
+
+        <p>
+          For customer support, visit our
+          <a href="#">Customer Connect Portal</a>
+          where you can access FAQs, chat with a 24/7 virtual
+          assistant, and submit online help requests.
+        </p>
+
+        <p>
+          Call the DMDC/DEERS Support Office (DSO):
+          <strong>(800) 538-9552.</strong>
+        </p>
+
+        <p>
+          Keeping your DEERS records current helps speed your
+          TRICARE medical benefits.
+        </p>
+
+      </div>
+
+
+      <!-- TECHNICAL SUPPORT -->
+      <div class="col-md-3">
+
+        <h3>☎ TECHNICAL SUPPORT</h3>
+
+        <p>
+          Call the DMDC Support Center:
+          <strong>(800) 477-8227.</strong>
+        </p>
+
+        <p>
+          Talk to Tech Support to report an outage or connectivity issue.
+        </p>
+
+      </div>
+
+
+      <!-- HELP -->
+      <div class="col-md-3">
+
+        <h3>❔ HELP</h3>
+
+        <p>
+          When you need fast facts about your benefits or records,
+          check our <a href="#">FAQ</a> first.
+        </p>
+
+        <p>
+          Or search <a href="#">Help</a>
+          for quick tips on using milConnect.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- CONNECT WITH US -->
+  <div class="footer-connect">
+
+    <div class="container-fluid">
+
+      <h3>CONNECT WITH US</h3>
+
+      <div class="row text-center">
+
+        <div class="col-md-3">
+          <div class="connect-icon">★</div>
+          <p>Military Crisis Line</p>
+        </div>
+
+        <div class="col-md-3">
+          <div class="connect-icon">☎</div>
+          <p>Customer Connect Portal</p>
+        </div>
+
+        <div class="col-md-3">
+          <div class="connect-icon">▰</div>
+          <p>DoD Safe Helpline</p>
+        </div>
+
+        <div class="col-md-3">
+          <div class="connect-icon">✓</div>
+          <p>National Resource Directory</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- MILCONNECT RESOURCES -->
+  <div class="footer-resources">
+
+    <div class="container-fluid">
+
+      <h3>MILCONNECT RESOURCES</h3>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <ul>
+            <li><a href="#">About milConnect</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-4">
+          <ul>
+            <li><a href="#">Privacy Act Statement</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">DMDC</a></li>
+            <li><a href="#">ID Card Office Locator</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-4">
+          <ul>
+            <li><a href="#">Accessibility/Section 508</a></li>
+            <li><a href="#">FVAP.gov</a></li>
+            <li><a href="#">No Fear Act Notice</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- BOTTOM UNCLASSIFIED BAR -->
+<div class="unclassified text-center">
+  Unclassified
+</div>
+
+
+</body>
+
+</html>
